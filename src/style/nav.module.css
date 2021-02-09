@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+};
+.ulcontainer{
+    display: flex;
+    margin: 10px;
+}
