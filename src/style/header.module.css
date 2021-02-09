@@ -1,0 +1,62 @@
+.main {
+    max-width: 1700px;
+    background-color: brown;
+    
+}
+.container{
+    display: flex;
+    width:auto;
+    max-width: 1200px;
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+}
+
+.button{
+    display: inline-block;
+    min-width: 135px;
+    cursor: pointer;
+    background-image: none;
+    border-radius: 0;
+  
+}
+
+
+.buttonClick{
+    position: relative;
+    overflow: hidden;
+    z-index: 30;
+    background-color: #fcb408;
+    border-radius: 30px;
+    padding-top: 18px;
+    padding-right: 28px;
+    padding-bottom: 18px;
+    padding-left: 28px;
+    display: inline-block;
+    min-width: 200px;
+    height: 80px;
+    border-radius: 50px;
+    margin-bottom: 0;
+    font-size: 14px;
+    white-space: nowrap;
+   
+}
+.sign{ font-size: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+    vertical-align: middle;
+    font-family: Raleway;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration:none;
+    padding: 12.5px 15px;
+    color: #fff;
+    border: 0; 
+}
+
+  .signIn {
+ text-decoration: none;
+  }
