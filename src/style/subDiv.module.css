@@ -1,0 +1,31 @@
+.parent{
+    position: absolute;
+    background-color:darkgoldenrod;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    height: 200px;
+    bottom: -400px;
+}
+
+.directChild>li>h5 {
+  font-size: 15px;
+}
+
+.directChild {
+    display: flex;
+    justify-content: space-between; 
+     
+
+}
+
+
+.directChild>li{
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+

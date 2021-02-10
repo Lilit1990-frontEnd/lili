@@ -1,0 +1,52 @@
+.container{
+    
+    width: 100%;
+    height: 1000px;
+    background-image: url(https://denmark.dk/-/media/denmarkdk/link-cards/1studiegruppe-gettyimages-637874086.ashx?mw=480&hash=C392047E0B0E14B7F67246F672033F2B);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aqua;
+    text-align: right;
+    position: absolute;
+   
+   
+
+}
+.pContainer {
+ position: relative;
+ margin-top:250px;
+ margin-left: 300px;
+ width: 80%;
+
+
+}
+
+.pContainer>h1{
+    font-size: 100px;
+    font-style: bold;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.pContainer>p{
+ font-size: 30px;
+ color: white;
+ 
+}
+
+.buttonDiv>button{
+    height: 90px;
+    width: 250px;
+   
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    border-radius: 50px;
+    border-color:white;
+    border-style: solid;
+    
+    
+ }
+ .buttonDiv{
+     margin-top: 90px;
+ }

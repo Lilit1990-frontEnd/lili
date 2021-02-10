@@ -1,9 +1,12 @@
-.container{
-    display: flex;
+.rootDiv{
+   display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-};
-.ulcontainer{
-    display: flex;
-    margin: 10px;
+    
 }
+.rootDiv>ul{
+    display: flex;
+    margin:15px;
+}
+
+    
+
